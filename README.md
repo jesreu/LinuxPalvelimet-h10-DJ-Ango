@@ -28,7 +28,7 @@ Otetaan virtuaaliympäristö käyttöön komennolla:
 
     source env/bin/activate
     
-    ![virtuaaliymparisto](https://user-images.githubusercontent.com/112503770/221422684-b5a978b6-ded8-4411-9d0e-6e048a9b3fb4.png)
+![virtuaaliymparisto](https://user-images.githubusercontent.com/112503770/221422684-b5a978b6-ded8-4411-9d0e-6e048a9b3fb4.png)
 
 Kuvassa näkyy komentopäätteen vasemmalle ilmestynyt (env), joka tarkoittaa että toimimme virtuaaliympäristössä.
 
