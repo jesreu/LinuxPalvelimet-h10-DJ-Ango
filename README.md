@@ -151,9 +151,9 @@ Käynnistetään serveri vielä, jotta voidaan tarkistaa tulivatko luokat näkyv
     
 ![luokat näkyy](https://user-images.githubusercontent.com/112503770/221423244-90d1e98b-a4c6-46bf-ad70-540dca22c25d.png)
 
-Käyttöliittymän kautta voidaan lisätä tietoja helposti ja relaatiot toimivat, mutta luokkien sisällöt ilmenevät muodossa `Student object(1)`. Korjataksemme tämän voimme käydä muokkaamasssa models.py tiedostoa.
+Käyttöliittymän kautta voimme lisätä hieman testi dataa, mutta data ilmenee muodossa `Student object(1)`. Korjataksemme tämän voimme käydä muokkaamasssa models.py tiedostoa.
 
-Kuvassa lisätään Grade oliota, johon voidaan valita vain olemassa olevia student olioita.
+Kuvassa lisätään Grade oliota, johon voidaan valita vain olemassa olevia student olioita. Näemme siis, että relaatiot toimivat. 
 
 ![Relaatiotoimii](https://user-images.githubusercontent.com/112503770/221423253-8edf7c61-4193-4b23-8e60-d686607679b7.png)
 
@@ -163,7 +163,7 @@ Muokataan models tiedostoa, jotta nimet näkyy fiksusti.
     
 ![paivitetty luokat](https://user-images.githubusercontent.com/112503770/221423288-5f756c98-4936-4ecc-a594-32c4fd360f6f.png)
 
-Tarkistetaan vielä weppisivulta:
+Tarkistetaan vielä weppisivulta, että nimet tulevat järkevästi.
 
 ![parempi nakuma](https://user-images.githubusercontent.com/112503770/221423302-98437166-17bc-498f-9269-c61c5512ebb7.png)
 
