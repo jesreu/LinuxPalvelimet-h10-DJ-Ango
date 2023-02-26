@@ -75,7 +75,7 @@ Päivitetään tietokanta komennoilla:
     ./manage.py makemigrations
     ./manage.py migrate
 
-Salasanan luomiseen asennetaan pwgen paketti, jolla voimme generoida turvallisen salasanan.
+Salasanan luomiseen asennetaan pwgen paketti, jolla voimme generoida turvallisen salasanan. Salasana näkyy kuvassa, koska tämä projekti on vain paikallinen, jos kyseessä olisi weppiin menevä projekti niin ei kannata jakaa salasanaa.
 
     sudo apt-get install pwgen
     pwgen -s 20 1
