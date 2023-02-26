@@ -124,12 +124,12 @@ Muokataan models.py tiedostoa, jossa voimme määrittää tietokannan luokkia, t
 
 ![tietokannan tierot](https://user-images.githubusercontent.com/112503770/221423158-6f8f3005-c2d2-4ce0-8050-97cfd2771d01.png)
 
-Ajetaan komennot:
+Päivitetään tietokanta komennoilla:
 
     ./manage.py makemigrations
     ./manage.py migrate
     
-Ajatessa ilmeni virhe:
+Ajatessa ilmeni virhe.
 
 ![virhe](https://user-images.githubusercontent.com/112503770/221423076-841735c5-9c78-4004-8a29-971a2e16728c.png)
 
