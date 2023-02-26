@@ -142,7 +142,7 @@ Rekisteröidään admin sivulle tehdyt modelit, jotta ne näkyvät weppisivulla.
 
     micro crm/admin.py
     
-kuve![rekisterointi](https://user-images.githubusercontent.com/112503770/221423122-a12035dd-36c5-4cf6-9493-c8aa3ec9c99b.png)
+![rekisterointi](https://user-images.githubusercontent.com/112503770/221423122-a12035dd-36c5-4cf6-9493-c8aa3ec9c99b.png)
 
 
 Käynnistetään serveri vielä, jotta voidaan tarkistaa tulivatko luokat näkyviin.
