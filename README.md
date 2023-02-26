@@ -32,11 +32,12 @@ Otetaan virtuaaliympäristö käyttöön komennolla:
 
 Kuvassa näkyy komentopäätteen vasemmalle ilmestynyt (env), joka tarkoittaa että toimimme virtuaaliympäristössä.
 
-Tarkistaa, että asennetaan oikeaan paikkaan komennolla:
+Tarkistaa, että pip asennetaan virtuaaliympäristöön komennolla:
 
     which pip
     
 ![pip menee virtuaaliin](https://user-images.githubusercontent.com/112503770/221422736-f58d1401-bd3e-42b6-a0cc-2398e4782412.png)
+Kuvasta näkee /env kirjaston, joten oikea osoite kyseessä.
 
 Kirjoitetaan tekstitiedostoon ohjelmat, jotka haluamme asentaa.
 
