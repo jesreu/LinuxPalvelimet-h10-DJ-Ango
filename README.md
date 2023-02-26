@@ -7,7 +7,7 @@
 Luodaan oma tietokantasovellus käyttämällä django kehysympäristöä.
 
 ### Kehitysympäristön luominen
-Aloitetaan prosessi asentamalla virtualenv paketti, jolla voidaan luoda virtuaalisia pyhton ympäristöjä. Kannattaa myös ajaa komento `man virtualenv` asennuksen jälkeen, jotta voit tutustua työkaluun.
+Aloitetaan prosessi asentamalla virtualenv paketti, jolla voidaan luoda virtuaalisia python ympäristöjä. Kannattaa myös ajaa komento `man virtualenv` asennuksen jälkeen, jotta voit tutustua työkaluun.
 
     sudo apt-get -y install virtualenv
     man virtualenv
