@@ -38,35 +38,42 @@ Tarkistaa, että pip asennetaan virtuaaliympäristöön komennolla:
     
 ![pip menee virtuaaliin](https://user-images.githubusercontent.com/112503770/221422736-f58d1401-bd3e-42b6-a0cc-2398e4782412.png)
 
-Kuvasta näkee /env kirjaston, joten oikea osoite kyseessä.
-
-Kirjoitetaan tekstitiedostoon ohjelmat, jotka haluamme asentaa.
+Kuvasta näkee `/env` kirjaston, joten oikea osoite kyseessä. Kirjoitetaan tekstitiedostoon ohjelmat, jotka haluamme asentaa.
 
     micro requirements.txt
     
 ![asennettavat ohjelmat](https://user-images.githubusercontent.com/112503770/221422797-edf291f6-4050-4c3a-a137-543a3730884a.png)
    
-Ajamalla komennon asennamme tiedostossa lukevat ohjelmat.
+Ajamalla komennon asennamme tiedostossa lukevat ohjelmat. Voimme tarkistaa, että django asentui ajamalla --version komennon.
 
     pip install -r requirements.txt
     django-admin --version
     
 ![django onnistui ja versio](https://user-images.githubusercontent.com/112503770/221422767-619086f1-5dd1-4afe-b964-26e6df8a8cc8.png)
 
-    
 ### Djangon käynnistäminen  
+Aloitetaan uusi django projekti (tietokanta/weppisivu) komennoilla:
 
     django-admin startproject sivuco
     cd sivuco
+    
+Käynnistetään projekti komennolla:
+
     ./manage.py runserver
     
-    ![serveripaalle](https://user-images.githubusercontent.com/112503770/221422903-9e2a1039-18c2-4e36-bc8c-2ea3647eb6d0.png)
+![serveripaalle](https://user-images.githubusercontent.com/112503770/221422903-9e2a1039-18c2-4e36-bc8c-2ea3647eb6d0.png)
+
+Voimme vielä kokeilla netissä sivulla `127.0.0.1:8000`, että sivu toimii.
+
+![Onnistunut asennus](https://user-images.githubusercontent.com/112503770/221423730-a99205fc-1639-4427-84de-4dde215bdbc9.png)
+
+ ### Admin käyttäjän luominen
+Lopeta severin ajaminen painamalla `ctrl + c`, jotta voimme ajaa komentoja samalla ikkunalla.
+
+Päivitetään tietokanta komennoilla:
 
     ./manage.py makemigrations
     ./manage.py migrate
-    
- ### Admin käyttäjän luominen 
-Lopeta severin ajaminen painamalla `ctrl + c`, jotta voimme ajaa komentoja samalla ikkunalla.
 
 Salasanan luomiseen asennetaan pwgen paketti, jolla voimme generoida turvallisen salasanan.
 
@@ -74,9 +81,8 @@ Salasanan luomiseen asennetaan pwgen paketti, jolla voimme generoida turvallisen
     pwgen -s 20 1
     
 ![generoitu salsan](https://user-images.githubusercontent.com/112503770/221422923-6a572ac7-f708-4181-be1e-5a67ae299b32.png)
-
-    
-Adminkäyttäjän luominen aja alapuolella oleva komento ja vastaa sen haluamiin kysymyksiin.
+  
+Adminkäyttäjän luominen aja alapuolella oleva komento ja vastaa sen haluamiin kysymyksiin. Käynnistetään sivu myös uudelleen `runserver` komennolla.
 
     ./manage.py createsuperuser
     ./manage.py runserver
@@ -89,11 +95,9 @@ Testaan onnistuiku käyttäjän lisääminen menemällä `127.0.0.1:8000/admin/`
 
 Luodaan toinen käyttäjä webbiliittymän kautta, koska oikealle käyttäjälle ei tulisi antaa admin käyttäjää. Voit lisätä uuden käyttäjän klikkaamalla `+ Add` vaitoehtoa Users kentän oikealla puolella
 
-kuve
+![uusikäyttäjä](https://user-images.githubusercontent.com/112503770/221423841-c448e607-791a-4a8c-bb8b-d34b21559d03.png)
 
 Sivu kysyy käyttäjän nimen, salasanan ja muut tiedot. Täytä ne hyvän tietoturvan mukaisesti. Kun olet tehnyt uuden käyttäjän, voit muokata käyttäjän oikeuksia klikkaamalla `Users` kenttää, joka avaa sivun missä näet kaikki käyttäjät.
-
-![uusikäyttäjä](https://user-images.githubusercontent.com/112503770/221423014-daacf4f6-c73f-4a4c-9c63-20bc8d65dfe8.png)
 
 ![Kayttajat](https://user-images.githubusercontent.com/112503770/221423045-ceff6bdf-d15b-4c75-bdeb-49e1965f6773.png)
 
