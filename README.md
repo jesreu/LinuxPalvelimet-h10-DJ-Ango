@@ -119,6 +119,7 @@ Muokataan settings.py tiedostoa, jotta crm appi on toiminnassa.
 ![uusi applikaatio](https://user-images.githubusercontent.com/112503770/221423064-3e4c8768-4214-4fa3-ada6-e5e2e2f6772f.png)
 
 Muokataan models.py tiedostoa, jossa voimme määrittää tietokannan luokkia, tässä tapauksessa on Oppilas, jolla voi olla useita Arvosanoja.
+
     micro crm/models.py
 
 ![tietokannan tierot](https://user-images.githubusercontent.com/112503770/221423158-6f8f3005-c2d2-4ce0-8050-97cfd2771d01.png)
