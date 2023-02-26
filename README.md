@@ -153,7 +153,7 @@ Käynnistetään serveri vielä, jotta voidaan tarkistaa tulivatko luokat näkyv
 
 Käyttöliittymän kautta voidaan lisätä tietoja helposti ja relaatiot toimivat, mutta luokkien sisällöt ilmenevät muodossa `Student object(1)`. Korjataksemme tämän voimme käydä muokkaamasssa models.py tiedostoa.
 
-Models.py tiedostoon tehdyt relaatiot näkyvät webissä. Kuvassa lisätään Grade oliota, johon voidaan valita vain olemassa olevia student olioita.
+Kuvassa lisätään Grade oliota, johon voidaan valita vain olemassa olevia student olioita.
 
 ![Relaatiotoimii](https://user-images.githubusercontent.com/112503770/221423253-8edf7c61-4193-4b23-8e60-d686607679b7.png)
 
