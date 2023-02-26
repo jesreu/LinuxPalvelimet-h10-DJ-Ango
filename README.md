@@ -111,7 +111,9 @@ Nyt voit kirjautua ulos admin käyttäjältä ja vaihtaa normaalille käyttäjä
 Luodaan kansio crm (customer relational management) applikaatiolle
 
     ./manage.py startapp crm
-    
+
+Muokataan settings.py tiedostoa, jotta crm appi on toiminnassa.
+
     micro sivuco/settings.py
     
 ![uusi applikaatio](https://user-images.githubusercontent.com/112503770/221423064-3e4c8768-4214-4fa3-ada6-e5e2e2f6772f.png)
